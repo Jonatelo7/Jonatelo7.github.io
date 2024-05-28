@@ -29,12 +29,15 @@ body {
 
 	/* Margem de todos os lados. */
 	margin: 3px;
+
+	font-family: Arial, Helvetica, sans-serif ;
 }
 
 /* Formatação comum entre os elementos. */
 header, nav, main, aside, footer {
 	/* Cor do fundo. */
-	background: #a1a1a1;
+	background: purple;
+	color: white;
 
 	/* Exibição flexível.                          */
 	/* Torna o elemento um flex container          */
