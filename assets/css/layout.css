@@ -13,6 +13,8 @@
 }
 
 body {
+	background-color: black;
+	color: blue;
 	/* Exibição flexível.                          */
 	/* Torna o elemento um flex container          */
 	/* e os seus elementos internos em flex-itens. */
@@ -36,8 +38,8 @@ body {
 /* Formatação comum entre os elementos. */
 header, nav, main, aside, footer {
 	/* Cor do fundo. */
-	background: purple;
-	color: white;
+	background: grey;
+	color: yellow;
 
 	/* Exibição flexível.                          */
 	/* Torna o elemento um flex container          */
@@ -45,7 +47,7 @@ header, nav, main, aside, footer {
 	display: flex;
 
 	/* Margem externa de todos os lados. */
-	margin: 3px;
+	margin: 0px;
 }
 
 /* Seletores para formatação individual. */
@@ -71,7 +73,7 @@ header #logo {
 	flex: 0 1 200px;
 
 	/* Cor do fundo. */
-	background: #c9c9c9;
+	background: grey;
 
 	/* Alinha os itens na vertical. */
 	justify-content: center;
@@ -222,4 +224,18 @@ a {
 		/* Margem de todos os lados. */
 		margin: 3%;
 	}
+
+}
+.preco{
+	margin-top:50px ;
+	color: white;
+}
+.sinopse{
+	margin-top: 90px;
+	
+}
+	
+.texto{
+	display:flex ;
+	flex-wrap: nowrap;
 }
